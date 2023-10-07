@@ -15,12 +15,12 @@ public class Account {
     private String accountNumber;
     private String bankName;
 
-    @Column(scale = 13, precision = 2)
+    @Column(precision = 13, scale = 2)
     private BigDecimal balance;
 
-    @Column(scale = 13, precision = 2)
+    @Column(precision = 13, scale = 2)
     private BigDecimal monthlyIncome;
-    @Column(scale = 13, precision = 2)
+    @Column(precision = 13, scale = 2)
     private BigDecimal monthlyExpenses;
 
     public Long getId() {
