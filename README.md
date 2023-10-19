@@ -1,5 +1,5 @@
 
-# Household Budget App
+# Household Budget App (Em desenvolvimento)
 
 RESTful API do Household Budget App, aplicativo para orçamento de despesas familiares  construída em Java 17 com Spring Boot 3.
 
